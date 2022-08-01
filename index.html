@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--header -> a container where we can place a introductory content
+    or a set of navigation links-->
+    <header id="header">
+        <!--attributes are place inside a tag <tag attribute>
+        id -> a tag unique identifier, is used to add styles in CSS or some funtionalities in JS
+        NOTE: Can not be used in different tags
+        class -> allows to identify more than one element->     
+        NOTE: check this attribute that was implement inside article tag
+        -->
+        <h1 id="title">Blog HTML</h1>
+    </header>
+    <!--div -> defines a division or a section in an HTML document
+    was used before the "section" tag existed-->
+    <!--
+    <div>
+        <p>Content inside a div tag</p>
+    </div> 
+    -->
+    <!--section -> defines a section in a document-->
+    <section class="container">
+        <!--article -> content autonomous and independent-->
+        <article class="post">
+            <h2>Post title 1</h2>
+            <p>Description of my post</p>
+            <img src="https://cdn.pixabay.com/photo/2022/01/24/07/52/lizard-6962760_960_720.jpg" alt="Image of a iguana" width="400">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque inventore voluptatibus magni voluptatem iure beatae? Adipisci repellendus unde facere incidunt?</p>
+        </article>
+        <article class="post">
+            <h2>Post title 2</h2>
+            <p>Description of my post 2</p>
+            <img src="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_960_720.jpg" alt="Image of a cat" width="400">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima deleniti architecto, aliquam consequatur qui odio eligendi, nemo eos consectetur minus rem laudantium, tempore neque repudiandae.</p>
+        </article>
+        <article class="post">
+            <h2>Post title 3</h2>
+            <p>Description of my post 3</p>
+            <img src="https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636_960_720.jpg" alt="Image of a elephant" width="400">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut explicabo ipsa ducimus soluta possimus exercitationem, quas nesciunt provident aspernatur nulla vitae, saepe repellendus est nisi corrupti quo, cupiditate optio ipsam?</p>
+        </article>
+    </section>
+
+
+    <!--footer -> defines the footer for a document or section
+    can contain:
+    - autorship information
+    - copyright inforamtion
+    - contact information
+    - sitemap
+    - back to top links
+    - related documents
+    -->
+    <footer>
+
+        <section>
+        <!--href=#exampleid -> here we put the id that we place a tag, together a "#""
+        in that case direct us to the header-->
+            <a href="#header">Go to top</a>
+
+        <!--mailto -> this directs us to our mail service-->
+        <a href="mailto:faustodiac-545@outlook.com">Contact me here</a>
+        </section>
+        <p>&copy; Copyright 2021</p>
+    </footer>
+</body>
+</html>
